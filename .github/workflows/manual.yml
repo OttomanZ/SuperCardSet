@@ -12,7 +12,7 @@ on:
         # Friendly description to be shown in the UI instead of 'name'
         description: 'Starting Download Thread for Visa/MasterCard'
         # Default value if no value is explicitly provided
-        default: 'World'
+        default: 'Say Anything'
         # Input has to be provided for the workflow to run
         required: true
 
@@ -28,6 +28,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ github.event.inputs.name }}"
+    - name: Clone Github Repository
+      run: git clone https://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@github.com/OttomanZ/SuperCardSet.git && cd SuperCardSet/
     - name: Install Dependencies
       run: sudo apt-get update && sudo apt-get install python3 && sudo apt-get install python3-pip && pip3 install -r requirements.txt
     - name: Start Download Instance
