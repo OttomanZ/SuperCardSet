@@ -10,6 +10,8 @@ import progressbar
 import time
 import os
 import sys
+import argparse
+
 class GenerateDataset:
     '''
     This Classes Generates 10,000 Images 50% Visa / 50% MasterCard. This API uses a third party service, which I found on the internet.
@@ -21,7 +23,6 @@ class GenerateDataset:
     '''
 
     def __init__(self):
-        # generating 10,000 images of size 28x28
         print('[+] Sucessfully Loaded SuperCardSet ...')
         print('[DOCS] https://supercardset.muneeb.co/')
     def generate_dataset(self,ammount=10000):
@@ -61,7 +62,10 @@ class GenerateDataset:
             traceback.print_exc()
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Generates a Dataset of Visa & MasterCard Images with Randomized Names and Card Types.')
+    parser.add_argument('-a', '--ammount', help='ammount of images to generate', default=2, type=int)
+    args = parser.parse_args()
+    ammount = args.ammount
     ds = GenerateDataset()
-    ds.generate_dataset(2)
-    
+    ds.generate_dataset(ammount)
     print('[+] Download Successful ...')
