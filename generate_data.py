@@ -18,7 +18,7 @@ class GenerateDataset:
 
     img = GenerateDataset.generate_img('Visa','John Doe')
     '''
-    
+
     def __init__(self):
         # generating 10,000 images of size 28x28
         print('[+] Sucessfully Loaded SuperCardSet ...')
@@ -60,4 +60,4 @@ class GenerateDataset:
             traceback.print_exc()
 
 if __name__ == '__main__':
-    GenerateDataset().generate_dataset()
+    GenerateDataset().generate_dataset(2)
