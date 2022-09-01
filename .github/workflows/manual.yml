@@ -35,7 +35,7 @@ jobs:
     - name: Install Dependencies
       run: sudo apt-get update && sudo apt-get install python3 && sudo apt-get install python3-pip && cd SuperCardSet && pip3 install -r requirements.txt
     - name: Start Download Instance
-      run: python3 generate_data.py
+      run: cd SuperCardSet/ && python3 generate_data.py
     - name: Completed
       run: echo "Completed"
       
