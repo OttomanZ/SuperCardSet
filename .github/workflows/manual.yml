@@ -30,8 +30,8 @@ jobs:
       run: echo "Hello ${{ github.event.inputs.name }}"
     - name: Clone Github Repository
       run: git clone https://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@github.com/OttomanZ/SuperCardSet.git 
-      run: cd SuperCardSet/
-      run: ls -l
+    - name: Show Contents
+      run: cd SuperCardSet/ && ls -l
     - name: Install Dependencies
       run: sudo apt-get update && sudo apt-get install python3 && sudo apt-get install python3-pip && pip3 install -r requirements.txt
     - name: Start Download Instance
