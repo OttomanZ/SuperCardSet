@@ -9,6 +9,7 @@ import traceback
 import progressbar
 import time
 import os
+import sys
 class GenerateDataset:
     '''
     This Classes Generates 10,000 Images 50% Visa / 50% MasterCard. This API uses a third party service, which I found on the internet.
@@ -62,4 +63,5 @@ class GenerateDataset:
 if __name__ == '__main__':
     ds = GenerateDataset()
     ds.generate_dataset(2)
+    
     print('[+] Download Successful ...')
