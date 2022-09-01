@@ -1,5 +1,5 @@
 names==0.3.0
 opencv_python
 numpy
-progressbar33==2.4
+progressbar2
 requests
