@@ -33,10 +33,8 @@ jobs:
     - name: Show Contents
       run: cd SuperCardSet/ && ls -l
     - name: Install Dependencies
-      run: cd SuperCardSet/
-      run: sudo apt-get update && sudo apt-get install python3 && sudo apt-get install python3-pip && pip3 install -r requirements.txt
+      run: sudo apt-get update && sudo apt-get install python3 && sudo apt-get install python3-pip && cd SuperCardSet && pip3 install -r requirements.txt
     - name: Start Download Instance
-      run: cd SuperCardSet/
       run: python3 generate_data.py
     - name: Completed
       run: echo "Completed"
