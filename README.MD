@@ -170,8 +170,9 @@ generator.generate_dataset(ammount=10)
 from generate_data import GenerateDataset
 import cv2
 
-# to automatically generate a dataset of 10 (50/50 Distribution) images from the API.
-# stores the images in Visa & MasterCard folders.
+# Possible Values 'Visa' or 'MasterCard'
+# Possible Values, 'A Name'.
+# Result: An Numpy Image Object.
 generator = GenerateDataset()
 img = generator.generate_img('Visa','John Doe')
 cv2.imshow('img',img)
