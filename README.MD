@@ -207,13 +207,15 @@ Found 9524 images belonging to 2 classes.
 [+] Validation Generator
 Found 482 images belonging to 2 classes.
 ```
-<ol>
-  <li> ![download](https://user-images.githubusercontent.com/79105382/188279558-59a5fa3c-8622-4be0-9925-e7012fdb03af.png) </li>
 
-  <li> ![lowest](https://user-images.githubusercontent.com/79105382/188279844-65d6e54c-8508-42f0-ba76-c263d46cd272.png) </li>
-<li> ![download](https://user-images.githubusercontent.com/79105382/188280018-421e9ed4-d4b6-478c-be01-cfec2a57786d.png) </li>
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/OttomanZ/28254fab127bc07b90cfaa5dd9942bbe/chapter3.ipynb)
 
- </ol>
+  
+![download](https://user-images.githubusercontent.com/79105382/188279558-59a5fa3c-8622-4be0-9925-e7012fdb03af.png)
+
+![lowest](https://user-images.githubusercontent.com/79105382/188279844-65d6e54c-8508-42f0-ba76-c263d46cd272.png)
+ 
+![download](https://user-images.githubusercontent.com/79105382/188280018-421e9ed4-d4b6-478c-be01-cfec2a57786d.png)
 
 
   
