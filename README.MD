@@ -18,7 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![JQuery][JQuery.com]][JQuery-url]
+[![JQuery][JQuery.com]][JQuery-url] 
 
 
 
@@ -196,7 +196,8 @@ cv2.destroyAllWindows()
 
 
 
-# Classification Model Results
+# Classification Model Results   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14pjH8_wEDt3Kaj-LODJ7xF064PJv_47U?usp=sharing)
+
 
 
 Here you can go ahead and see the performance of MobileNet Model trained using `tensorflow.keras` over 50 epochs on the following dataset distribution.
@@ -207,8 +208,6 @@ Found 9524 images belonging to 2 classes.
 [+] Validation Generator
 Found 482 images belonging to 2 classes.
 ```
-
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/OttomanZ/28254fab127bc07b90cfaa5dd9942bbe/chapter3.ipynb)
 
   
 ![download](https://user-images.githubusercontent.com/79105382/188279558-59a5fa3c-8622-4be0-9925-e7012fdb03af.png)
